@@ -155,12 +155,6 @@ if($_SERVER['REQUEST_METHOD']== "POST"){
             echo "\n";
         }
         fclose($read);
-            //  $read = fopen('data.txt', 'r');
-            //  while(!feof($read)){
-            //     echo fgets($read) . "<br>";
-            //     echo  "\n";
-            //  }
-            //  fclose($read);
         ?>
     </fieldset>
 </body>
